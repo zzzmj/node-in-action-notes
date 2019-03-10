@@ -24,12 +24,13 @@
 
 
 ## 第三章. Web程序是什么？
-[跳转至整章笔记处]()
+[跳转至整章笔记处](https://github.com/zzzmj/node-in-action-notes/blob/master/%E7%AC%AC%E4%B8%89%E7%AB%A0.Web%E7%A8%8B%E5%BA%8F%E6%98%AF%E4%BB%80%E4%B9%88/notes.md)
 
-这一章做了一个完整的案例，算是一个符合MVC的小项目了
-使用Express做了一个带有RESTful API的Web程序
-功能实现了增删改查
-数据库使用了SQLite（用这个是因为项目小）
-使用了EJS渲染模板
+这一章做了一个完整的案例，算是一个符合MVC的小项目了, 符合RESTful API的Web程序
 
-[跳转至目录处]()
+1. 使用Express
+2. 实现了增删改查
+3. 数据库使用了SQLite（用这个是因为项目小）
+4. EJS渲染模板
+
+[跳转至web目录处](https://github.com/zzzmj/node-in-action-notes/tree/master/%E7%AC%AC%E4%B8%89%E7%AB%A0.Web%E7%A8%8B%E5%BA%8F%E6%98%AF%E4%BB%80%E4%B9%88/RESTful)

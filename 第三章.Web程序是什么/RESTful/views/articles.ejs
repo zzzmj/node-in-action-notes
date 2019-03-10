@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Later</title>
+    </head>
+    <body>
+        <div class="container">
+            <ul>
+                <% articles.forEach((article) => { %>
+                <li>
+                    <a href="/articles/<%= article.id %>">
+                        <%= article.title %>
+                    </a>
+                    <div>
+                        <%- article.content %>
+                    </div>
+                </li>
+                <% }) %>
+            </ul>
+        </div>
+    </body>
+</html>

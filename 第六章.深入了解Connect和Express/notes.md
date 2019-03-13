@@ -98,5 +98,3 @@ app.use(logger(":method :url"))
 
 
 
-## 3. Express
-Express是在connect基础上搭建的

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%= title %></title>
+</head>
+<body>
+    <% include nav %>
+    <h1>填写表单</h1>
+    <form action="/post" method="post">
+        <p>
+            <input type="text" name="entry[title]" placeholder="Title" />
+        </p>
+        <p>
+            <input type="text" name="entry[body]" placeholder="Body" />
+        </p>
+        <p>
+            <input type="submit" value="Post">
+        </p>
+    </form>
+</body>
+</html>

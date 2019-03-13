@@ -42,9 +42,9 @@
 
 这一章内容比较多，分成了几份笔记
 
-1. [connect工作原理]()
-2. [express实现留言版功能]()
-2. [express登录注册]()
+1. [connect工作原理](https://github.com/zzzmj/node-in-action-notes/blob/master/%E7%AC%AC%E5%85%AD%E7%AB%A0.%E6%B7%B1%E5%85%A5%E4%BA%86%E8%A7%A3Connect%E5%92%8CExpress/notes.md)
+2. [express实现留言版功能](https://github.com/zzzmj/node-in-action-notes/blob/master/%E7%AC%AC%E5%85%AD%E7%AB%A0.%E6%B7%B1%E5%85%A5%E4%BA%86%E8%A7%A3Connect%E5%92%8CExpress/notes2.md)
+2. [express登录注册](https://github.com/zzzmj/node-in-action-notes/blob/master/%E7%AC%AC%E5%85%AD%E7%AB%A0.%E6%B7%B1%E5%85%A5%E4%BA%86%E8%A7%A3Connect%E5%92%8CExpress/notes3.md)
 
 这一章的项目比较复杂
 1. 使用Express
@@ -52,4 +52,4 @@
 3. 用户留言的增删改查
 4. 数据库使用Redis
 
-[项目]()
+[项目](https://github.com/zzzmj/node-in-action-notes/tree/master/%E7%AC%AC%E5%85%AD%E7%AB%A0.%E6%B7%B1%E5%85%A5%E4%BA%86%E8%A7%A3Connect%E5%92%8CExpress/express-project)

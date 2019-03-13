@@ -8,6 +8,7 @@ const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
 const entries = require('./routes/entries');
 const validate = require('./middleware/validate')
+const register = require('./routes/register');
 
 const app = express();
 
@@ -26,6 +27,9 @@ app.use('/users', usersRouter);
 app.get('/post', entries.form)
 app.get('/list', entries.list)
 app.post('/post', validate.required('entry[title]'), validate.lengthAbove('entry[body]', 5), entries.submit)
+app.get('/register', register.form)
+app.post('/register', register.submit)
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

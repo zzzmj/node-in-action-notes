@@ -151,4 +151,39 @@ class User {
 
 ##### 3.4.2 登录注册功能
 
+先实现注册功能
+
+模板部分
+```html
+<form action="/register" method="post">
+    <p>
+        <input type="text" name="user[name]" placeholder="username" />
+    </p>
+    <p>
+        <input type="password" name="user[pwd]" placeholder="password" />
+    </p>
+    <p>
+        <input type="submit" value="Post">
+    </p>
+</form>
+```
+
+路由部分
+```js
+exports.form = (req, res, next) => {
+    res.render('register', {title: 'register'})
+}
+
+exports.submit = (req, res, next) => {
+    const user = req.body.user
+    console.log(user)
+    res.redirect('/')
+}
+
+// app.js下
+app.get('/register', register.form)
+app.post('/register', register.submit)
+```
+
+套路其实都差不多。
 

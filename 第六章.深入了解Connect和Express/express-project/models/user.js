@@ -12,6 +12,14 @@ class User {
         })
     }
 
+    static getUser(id, cb) {
+        console.log(id)
+        db.hgetall(`user:${id}`, (err, data) => {
+            if (err) cb(err)
+            cb(null, data)
+        })
+    } 
+
     static authenticate(name, pwd, cb) {
         User.getByName(name, (err, user) => {
             if (err || !user.id) return cb(err)
@@ -65,8 +73,5 @@ class User {
     }
 }
 
-User.getByName('zmj', (err, user) => {
-    console.log(user)
-})
 
 module.exports = User

@@ -53,3 +53,16 @@
 4. 数据库使用Redis
 
 [项目](https://github.com/zzzmj/node-in-action-notes/tree/master/%E7%AC%AC%E5%85%AD%E7%AB%A0.%E6%B7%B1%E5%85%A5%E4%BA%86%E8%A7%A3Connect%E5%92%8CExpress/express-project)
+
+这一章后面一点内容我没有做完
+
+## 总结
+
+其实后面几章都是概括性的介绍了一下数据库啊，部署等内容，我翻了一下，没有再继续做笔记了
+像第五章 介绍了六七个服务器框架
+
+第八章介绍了六七个数据库
+
+感觉最精华的内容还是 第1,2,3章和第6章
+
+第六章难度对初学者来说有些略大，硬啃下来还是收获很多的
